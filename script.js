@@ -49,5 +49,3 @@ function handleClick() {
 function handleEnter(event) {
     if (event.which === 13) handleClick();
   }
-
-  fetch("https://www.omdbapi.com/?i=" + input.value + "&apikey=835e12a")
